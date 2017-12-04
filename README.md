@@ -1,3 +1,3 @@
 # persoSite
-Site personnel avec blog, curriculum etc...
-nous allon s voir si c'est mieux, et si c'est encore mieux
+
+je n'ai pas encore tout bien compris
