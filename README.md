@@ -1,2 +1,3 @@
 # persoSite
 Site personnel avec blog, curriculum etc...
+nous allon s voir si c'est mieux
