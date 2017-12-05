@@ -94,4 +94,183 @@ h4{
 	color:#b22d2d;
 }
 
+/*Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575px) xs { 
 
+ }
+*/
+/*Small devices (landscape phones, 576px and up)sm*/
+@media  (max-width: 767px) { 
+
+.jumbotron h1{
+	font-size:200%;
+	text-align:center;
+	font-weight:bold;	
+}
+#headband .jumbotron{
+	color:white;
+}
+.jumbotron{
+	padding-top:0px;
+	padding-bottom:0px;
+}
+#contact{
+	text-align:center;
+}
+.lead{
+	text-align:center;
+	font-size:0.8em;
+}
+
+/*font white and col left*/
+
+.whiteTxt, .whiteTxt a{
+	font-size:0.9em;
+	color:black;
+	}
+
+article .container-fluid, article .container, ul{
+	margin-left:0px;
+	padding-left:0px;
+	}
+
+.whiteBarre{
+	height:5px;
+	}
+
+h4{
+	font-weight:normal;
+	font-size:1.5em;
+	padding-left:0px;
+	color:#b22d2d;
+}
+#skill h1{
+	font-size:100%;
+	padding-left:10px;
+}
+.textSkill{
+	font-size:0.9em;
+	text-align:justify;
+	padding-bottom:0px;
+	width:90%;
+}
+.textSkill li{
+	list-style-image:none;
+	list-style-type:none;
+}
+
+.supmd,.supsm,.supxs {
+	display:none;
+}
+#main{
+					
+	background-image:none;
+}
+ }
+
+/* Medium devices (tablets, 768px and up)md*/
+@media (min-width: 768px) and (max-width: 991px) { 
+.jumbotron p{
+	padding-left:0px;
+}
+.jumbotron h1{
+	font-size:250%;
+	text-align:center;
+	font-weight:bold;
+}
+
+.lead{
+	text-align:center;
+	font-size:0.9em;
+}
+
+/*font white and col left*/
+
+.whiteTxt{
+	font-size:1em;
+	}
+
+article .container-fluid, article .container, ul{
+	margin-left:0px;
+	padding-left:0px;
+	}
+
+.whiteBarre{
+	height:5px;
+	}
+
+h4{
+	font-weight:normal;
+	padding-left:0px;
+}
+#skill h1{
+	font-size:100%;
+	padding-left:10px;
+}
+.textSkill{
+	font-size:0.9em;
+	text-align:justify;
+	padding-bottom:0px;
+	width:90%;
+}
+.textSkill li{
+	list-style-image:none;
+	list-style-type:none;
+}
+
+.supmd,.supsm {
+	display:none;
+}
+#main{
+					
+	background-size:60% 100%;
+}
+ }
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199px) { 
+
+.jumbotron p{
+	padding-left:0px;
+}
+.jumbotron h1{
+	font-size:400%;
+}
+
+.lead{
+	text-align:center;
+}
+
+
+/*font white and col left*/
+
+.whiteTxt{
+	font-size:1em;
+	}
+
+article .container-fluid, article .container, ul{
+	margin-left:0px;
+	padding-left:0px;
+	}
+
+.whiteBarre{
+	height:5px;
+	}
+
+h4{
+	font-weight:bold;
+	padding-left:0px;
+}
+#skill h1{
+	font-size:200%;
+}
+.textSkill{
+	font-size:1em;
+	text-align:justify;
+	padding-bottom:20px;
+	width:90%;
+}
+.supmd{
+	display:none;
+}
+}
