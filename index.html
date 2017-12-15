@@ -8,114 +8,143 @@
 	
 	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"> 
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-	<link rel="stylesheet" href="css/CVcss.css">
+	<link rel="stylesheet" href="public/css/CVcss.css">
+	<link rel= "stylesheet" href= "path/to/font-awesome/css/font-awesome.min.css" > 
+	
+	<!-- Open Graph data -->
+
+		<meta property="og:title" content="Siegfried Chapotin"/>
+		<meta property="og:type" content="website"/>
+		<meta property="og:url" content="http://www.siegfriedchapotin.fr/"/>
+		<meta property="og:image" content="http://example.com/image.jpg"/>
+		<meta property="og:description" content="Description Here"/>
 	
   </head>
   <body>
     	<div id="main" class="container-fluid no-gutters">
-	
-			<header class="container-fluid bordure">
 			
-				<div class="whiteTxt">
-					<h2>Bienvenue :)</h2>
-					<a href="http://www.siegfriedchapotin.fr/" target="_blank">www.siegfriedchapotin.fr</a>
-				</div>
-			</header>
-			
-			<section id="headband">
-				<div class="jumbotron whiteTxt ">
+			<header>
+				<section class="container-fluid">
+					<div class="row whiteTxt">
+						<h2 class="col-12"> Bienvenue :)</h2>
+						<a class="col-12" href="http://www.siegfriedchapotin.fr/" target="_blank">www.siegfriedchapotin.fr</a>
+					</div>
+				</section>
+				
+				<section class="jumbotron whiteTxt">
 					<div class="container-fluid">
 						<h1 class="display-3">Chapotin Siegfried</h1>
 						<p class="lead">Encadrement, technico-commercial et développement informatique</p>
-					</div>
-				</div>	
-			</section>
-			
-			<section class="container-fluid bordure">
-			
-				<article id="contact">
-					<div class="row" >
-						<div class="jumbotron col-lg-4 col-md-6 col-sm-12">
-							<div class="container whiteTxt">
-									<span class="supxs"><h4>CONTACT</h4>
-									<p>8 rue de Brest, appt 27</br>
-									44300 Nantes</p></span>
-									<p><span class="supxs">TEL : 02.28.07.64.52</br></span>
-									<a href="mailto:siegfried.chapotin@laposte.net">siegfried.chapotin@laposte.net</a></p>
+					</div>					
+				</section>
+			</header>
+		
+		
+			<section class="container-fluid">
+				
+				<article id="contact" class="container-fluid" >
+						<div class="row">
+							<div class="col-lg-4 col-md-5 col-sm-12 whiteTxt">
 								<div class="row" >
-									<p>
-										<a class="btn btn-danger" href="https://wordpress.com/me" data-toggle="tooltip" data-placement="left" title="Wordpress" target="_blank"><img class="" src="images/glyphicons-social-10-wordpress.png" alt="twitter"/></a>
-										<a class="btn btn-danger" href="https://www.linkedin.com/in/siegfried-chapotin-90b90265/" data-toggle="tooltip" data-placement="top" title="Link In" target="_blank"><img class="" src="images/glyphicons-social-18-linked-in.png" alt="LinkIn"/></a>
-										<a class="btn btn-danger" href="https://github.com/SiegfriedChapotin" data-toggle="tooltip" data-placement="bottom" title="GitHub" target="_blank" ><img class="" src="images/glyphicons-social-22-github.png" alt="GitHub"/></a>
-										<a class="btn btn-danger" href="https://getbootstrap.slack.com/messages/D898MUT4M/team/U898MUB5K/" data-toggle="tooltip" data-placement="top" title="Bootstrap Slack" target="_blank"><img class="" src="images/glyphicons-social-slack.png" alt="slack"/></a>
-										<a class="btn btn-danger" href="http://siegfriedchapotin.fr/public/document/CvIntegrateurWeb.pdf" data-toggle="tooltip" data-placement="right" title="CV Format PDF" target="_blank"><img class="" src="images/glyphicons-37-file.png" alt="pdf"/></a>
-									</p>
+									<div class="d-none d-sm-block col-lg-12 col-md-12 col-sm-5">
+										<h4>CONTACT</h4>
+										<p>8 rue de Brest, appt 27</br>
+											44300 Nantes</br>
+											TEL : 02.28.07.64.52
+										</p>
+									</div>									
+									<div class=" col-xs-12 col-lg-12 col-md-12 col-sm-7">
+										<p><a href="mailto:siegfried.chapotin@laposte.net">siegfried.chapotin@laposte.net</a></p>
+										
+										<p class="d-none d-sm-block">
+											<a class="btn btn-danger" href="https://wordpress.com/me" data-toggle="tooltip" data-placement="left" title="Wordpress" target="_blank"><img class="" src="public/images/glyphicons-social-10-wordpress.png" alt="twitter"/></a>
+											<a class="btn btn-danger" href="https://www.linkedin.com/in/siegfried-chapotin-90b90265/" data-toggle="tooltip" data-placement="top" title="Link In" target="_blank"><img class="" src="public/images/glyphicons-social-18-linked-in.png" alt="LinkIn"/></a>
+											<a class="btn btn-danger" href="https://github.com/SiegfriedChapotin" data-toggle="tooltip" data-placement="bottom" title="GitHub" target="_blank" ><img class="" src="public/images/glyphicons-social-22-github.png" alt="GitHub"/></a>
+											<a class="btn btn-danger" href="https://getbootstrap.slack.com/messages/D898MUT4M/team/U898MUB5K/" data-toggle="tooltip" data-placement="top" title="Bootstrap Slack" target="_blank"><img class="" src="public/images/glyphicons-social-slack.png" alt="slack"/></a>
+											<a class="btn btn-danger" href="http://siegfriedchapotin.fr/public/document/CvIntegrateurWeb.pdf" data-toggle="tooltip" data-placement="right" title="CV Format PDF" target="_blank"><img class="" src="public/images/glyphicons-37-file.png" alt="pdf"/></a>
+										</p>
+									</div>
+								</div>								
+							</div>
+							<div class="jumbotron col-lg-8 col-md-7 offset-md-0 col-sm-9 offset-sm-3">							
+								<div class="container-fluid">								
+									<h1 class="display-3">Intégrateur Web</h1>
+									</br>
+									<p class="lead">Un profil Webmaster et Webdesigner. Une expérience dans l'encadrement et la conduite de projet</p>
+								</div>
+							</div>							
+						</div>	
+				</article>
+					
+				<article id="skill" class="container-fluid">
+					<div class="row justify-content-between">
+						<div class="col-lg-3 col-md-4 col-sm-12 whiteTxt">
+							<div class="container-fluid">
+								<div class="row justify-content-center">
+									<div class="col-11">
+										<h1>PROFILS</h1>									
+										<hr class="whiteBarre"/>
+										<h3>Chef de projet ou assistant</h3>
+										<p> Conduite de projet, relation client et langage UML.</p>
+									</div>
+								</div>
+								<div class="row justify-content-center">
+									<div class="col-11">
+										<h3>Intégrateur Web</h3> 
+										<p> Création graphique, UX desinger Maquettage et création de site.</p>
+										<p class="certifSkill">
+											<a  href="http://siegfriedchapotin.fr/public/document/certificats%20cours%20et%20parcours/Parcours/certificat_siegfried-chapotin_introduction-a-lintegration-web.pdf" data-toggle="tooltip" data-placement="top" title="Certificat OpenClassRooms" target="_blank">
+											CERTIFICAT DE RÉUSSITE											
+											</a>
+										</p>
+									</div>
+								</div>
+								<div class="row justify-content-center">
+									<div class="col-11">
+										<h3>Animateur de communauté</h3>
+										<p>Développement de projet en communication.<br/>
+											Stratégie de communication et gestion de réseaux<br/>
+											Référencement web.
+										</p>
+									</div>
+								</div>
+								<div class="row justify-content-center d-none d-lg-block ">
+									<div class="col-11">
+										<h1>APTITUDES</h1>
+											<hr class="whiteBarre"/>
+											<ul>
+												<li>Conception de publication
+													interne/externe (web CMS/
+													print Scribus)</li>
+												<li>Développeur Front-End
+													(HTML5, CSS3, JQuery, JS)</li>
+												<li>Web designer (GIMP, Blender)</li>
+												<li>Community manager /
+													référencement</li>
+												<li>Stratégie de communication
+													mailing/réseaux sociaux</li>
+												<li>Solution Framasoft</li>
+											</ul>
+									</div>
+								</div>
+								<div class="row d-none d-xl-block justify-content-center">
+									<div class="col-11">
+										<h3>Derniers projets réalisés</h3>
+										<hr class="whiteBarre"/>
+										<p>Mon CV Interactif (en cours)</p>
+										<p>Implantation FI Loire-Atlantique :<br/>
+										Site/mailing/infoGraphie/Print</p>
+									</div>
 								</div>
 							</div>
 						</div>
-						<div class="jumbotron col-lg-8 col-md-6 col-sm-12">
-							<div class="container-fluid">
-								<h1 class="display-3">Intégrateur Web</h1>
-								</br>
-								<p class="lead">Un profil Webmaster et Webdesigner. Une expérience dans l'encadrement et la conduite de projet</p>
-							</div>
-						</div>
-					</div>	
-				</article>
-				
-				<article id="skill">
-					<div class="row justify-content-between">
-						<div class="col-lg-3 col-md-5 col-sm-12 whiteTxt">
-							<div class="container-fluid">
-								<span class="supxs"><h1>PROFILS</h1>
-								<hr class="whiteBarre"/></span>
-								<h4>Chef de projet ou assistant</h4>
-									<p>Conduite de projet, relation client et
-									langage UML.</p>
-								<h4>Intégrateur Web</h4>
-									<p>Création graphique, UX desinger
-									Maquettage et création de site en
-									Front-end</p>
-									<span class="supxs"><p>CERTIFICAT DE RÉUSSITE</p></span>
-									
-								<h4>Animateur de communauté</h4>
-									<p>Développement de projet
-									en communication.</p>
-									<p>Stratégie de communication et
-									gestion de réseaux</p>
-									<p>Référencement web</p>
-									
-								<span class="supxs"><h1>APTITUDES</h1>
-								<hr class="whiteBarre"/></span>
-								<ul>
-									<li>Conception de publication
-										interne/externe (web CMS/
-										print Scribus)</li>
-									<li>Développeur Front-End
-										(HTML5, CSS3, JQuery, JS)</li>
-									<li>Web designer (GIMP, Blender)</li>
-									<li>Community manager /
-										référencement</li>
-									<li>Stratégie de communication
-										mailing/réseaux sociaux</li>
-									<li>Solution Framasoft</li>
-								</ul>
-								
-								<span class="supxs"><h3>Dernier<span class="supmd">s</span> projet<span class="supmd">s réalisés</span></h3>
-								<hr class="whiteBarre"/>
-								<p>Mon CV Interactif (en cours)</p>
-								<span class="supmd"><p>Implantation FI Loire-Atlantique :<br/>
-								Site/mailing/infoGraphie/Print</p></span></span>
-							</div>
-						</div>
-						<div class="col-lg-8 col-md-7 col-sm-12 ColSkill">
-							<div>
-									<div class="redTxt">
+						<div class="col-lg-8 col-md-7  offset-md-0 col-sm-11  offset-sm-1 redTxt">
+							<div class="row">
+								<div class="col-11">
+									<span class="d-none d-md-block">
 										<h1>Compétences professionnelles</h1>
-										<hr class="SkillBarre"/>
-									</div>
-									<div class="textSkill">
-										<ul>
+										<hr class="redBarre"/>								
+										<ul class="d-none d-md-block">
 											<li>J’ai encadré de nombreux projets et plusieurs équipes. Responsable dans
 												diverses structures de l’économie sociale et solidaire, cette capacité à
 												l’encadrement a été validée par des formations internes.</li>
@@ -127,14 +156,42 @@
 												particulière aux logiciels libres. Mes aptitudes sont celles d'un développeur
 												Front-End et d'un Web designer.</li>
 										</ul>
-									</div>
-							</div>
-							<div>
-									<div class="redTxt">	
+									</span>
+									<p>
+										<tr>
+											<th colspan="4">
+												<div id="CompAccordion">
+													<div class="item">
+														<a class="accordionTitreCV" data-toggle="collapse" data-parent="#Compccordion" href="#CompAccordion1" aria-expanded="false" aria-controls="CompAccordion1">
+														Mes compétences professionnelles &emsp; <img  class="" src="public/images/glyphicons-602-chevron-down.png" alt="voir texte"/>
+														</a>
+														<div id="CompAccordion1" class="collapse" role="tabpanel">
+															<p>
+																<p>J’ai pris le soin de détailler l’ensemble de mes compétences pour vous faire une idée très précise de l’ensemble de mes compétences. Vous les trouverez <a class="accordionTitreCV" href="html/skill.html#devWeb" target="_blank "> ici</a></p>																	
+																<p class="accordionText">Dans le même temps, ce CV interactif a pour objet d’illustrer mes compétences et pas simplement de les énumérer  :</p>
+																<ol class="accordionText">
+																	<li><span class="date"> Du 4 au 5 décembre</span> mise en place rapide du curriculum, sur la base de mon cv papier.</li>
+																		<ul>
+																			<li> Découpage et intégration de la maquette</li>
+																			<li> Utilisation Bootstrap</li>
+																			<li> Envoie du travail sur Git-Hub</li>
+																			<li>Mise en ligne sur serveur</li>
+																		</ul>
+																</ol>
+															</p>
+														</div>
+													</div>
+												</div>
+											</th>
+										</tr>
+									</p>											
+								</div>
+							</div>	
+							<div class="row">
+								<div class="col-11">
+									<span class="d-none d-lg-block">
 										<h1>Expériences professionnelles</h1>
-										<hr class="SkillBarre"/>
-									</div>
-									<div class="textSkill">
+										<hr class="redBarre"/>
 										<ul>
 											<li><span class="date">2016</span> Porteur de projet multimédia dans l'économie sociale et solidaire<span class="supsm">
 												Animateur de projet communication et multimédia dans l'ESS. Communication interne/
@@ -150,43 +207,163 @@
 												Encadrement d'une structure départementale, animation et organisation des débats et des
 												activités. Gestion d'un budget, de locaux multi-sites. Développement des réseaux
 												d'informations dans les milieux associatifs, sociaux et les collectivités
-												Organisation de l'économie sociale ( Yonne 89)(durée d'un mandat). </span></li>
+												Organisation de l'économie sociale ( Yonne 89 - durée d'un mandat). </span></li>
 										</ul>
-									</div>
+									</span>
+									<p>
+										<tr>
+											<th colspan="4">
+												<div id="ExpAccordion">
+													<div class="item">
+														<a class="accordionTitreCV" data-toggle="collapse" data-parent="#ExpAccordion" href="#ExpAccordion1" aria-expanded="false" aria-controls="ExpAccordion1">
+														Mes expériences professionnelles &emsp; <img  class="" src="public/images/glyphicons-602-chevron-down.png" alt="voir texte"/>
+														</a>
+														<div id="ExpAccordion1" class="collapse" role="tabpanel">
+															<ul>
+																<li><span class="date">2016  <img src="public/images/listRed.png"></span> Auto-entrepreneur L’ouvre-Boite 44
+																	Creation d’une structure  "d’animateur de projet communication et multimedia" </li>
+
+																<li><span class="date">2015 (interim 10 mois)  <img src="public/images/listRed.png"></span> Aide laboratoire Eurofins Analytics France
+																	Preparation des postes de travail et d'analyse. Elaboration et creation d'un systeme d'approvisionnement</li>
+
+																<li><span class="date">2014 (interim 1 mois) <img src="public/images/listRed.png"></span> Preparateur de commande, Magasinier, LORFLEX Nantes (44)
+																	Travail de logistique, organisation et gestion du stock.</li>
+
+																<li><span class="date"> 2014 (interim 2 mois) <img src="public/images/listRed.png"></span> Agent de production TALLINEAU EMBALLAGE SERVICE Vertou (44)
+																	Margeur. Alimentation en carton des machines : Combine 2008,2001, ROTAPLATINE, plieuse colleuse</li>
+
+																<li><span class="date">2013 (CDD 1 mois)  <img src="public/images/listRed.png"></span> Opérateur administratif charge de relations Mairie de Nantes (44)
+																	Gestion poste administratif, charge des relations publiques et administratives.</li>
+
+																<li><span class="date">2013 (CDD 4 mois)  <img src="public/images/listRed.png"></span> Redacteur, charge de communication et relations Conseil Regional des Pays de la Loire (44)
+																	Gestion poste administratif, charge des relations publiques et administratives.</li>
+
+																<li><span class="date">2012 (interim 2 mois)  <img src="public/images/listRed.png"></span> Operateur clientele INITIAL St Luce sur Loire (44)
+																	Charge de dossiers clients . Mise en place des prestations. Controle qualite des prestations et informations clients</li>
+
+																<li><span class="date">2011 (intérim 1 an)  <img src="public/images/listRed.png"></span> Préparateur de commande EasyDis (Entrepot Casino) Auxerre (89)
+																	Preparation de commandes en entrepot frigorifique. Utilisation de trans-palette electrique et casque de commande.</li>
+
+																<li><span class="date">2007 (CDI 3 ans)  <img src="public/images/listRed.png"></span> Secretaire departemental d’une association d’economie sociale (Duree d’un mandat) (89)
+																	Encadrement d’une structure departementale, animation des debats et des activites. Gestion d’un budget, de locaux multisites.</li>
+
+																<li><span class="date">2007 (CDD 4 mois)  <img src="public/images/listRed.png"></span> Operateur de saisie Direction departementale de l’Agriculture et de la Foret (89)
+																	Saisi des dossiers de la PAC. Relation avec les usagers, instruction et mise en ligne de leurs donnees sur Internet.</li>
+
+																<li><span class="date">2006 (interim 9 mois)  <img src="public/images/listRed.png"></span> Preparateur de commande, Operateur de saisie, Magasinier, HERMES-METAL Moneteau (89)
+																	Travail de logistique, commande et organisation des rotations transporteurs. Gestion multi-sites de stockage.</li>
+
+																<li><span class="date">1998 (CDI 8 ans)  <img src="public/images/listRed.png"></span> Vendeur Conseil DARTY Auxerre (89)
+																	Relation client, connaissance des produits et conseil en vente. Specialise dans le brun (secteur informatique, audio visuel)</li>
+																			
+																<li><span class="date">1993 (CDD 4 ans) <img src="public/images/listRed.png"></span> Maître d’internat, Éducation Nationale (Dijon 21, Mâcon 71, Yonne 89)</li>
+															</ul>
+															<p>Un long parcours dans l’économie sociale (+ de 20 ans d’expérience) m’a permis d’occuper de nombreuses responsabilités du niveau local jusqu’au niveau national</p>
+														</div>
+													</div>
+												</div>
+											</th>
+										</tr>
+									</p>
+								</div>		
 							</div>
-							<div>
-									<div class="redTxt">
-										<h1>Formation</h1>
-										<hr class="SkillBarre"/>
-									</div>
-									<div class="textSkill">
-										<ul>
-											<li><span class="date">2017</span> "Intégrateur Web" - Certificats Open-Classerom (obtenu)</li>
-											<li><span class="date">2016</span> "Chef projet multimedia" - Certificats Open-Classerom (en cours)</li>
-											<li><span class="date">1996</span> 1er année DEUG Histoire, (Université de Franche Comte)</li>
-											<li><span class="date">1993</span> DEUG lettres modernes (Université de Bourgogne)</li>
-										</ul>
-									</div>
-									
-							</div>
+							<div class="row">	
+								<div class="col-11">
+									<h1>Formation</h1>
+									<hr class="redBarre"/>								
+									<ul>
+										<li><span class="date">2017</span> "Intégrateur Web" - Certificats Open-Classerom (obtenu)</li>
+										<li><span class="date">2016</span> "Chef projet multimedia" - Certificats Open-Classerom (en cours)</li>
+										<li><span class="date">1996</span> 1er année DEUG Histoire, (Université de Franche Comte)</li>
+										<li><span class="date">1993</span> DEUG lettres modernes (Université de Bourgogne)</li>
+									</ul>
+								</div>
+							</div>							
+						</div>	
+					</div>
+				</article>
+					
+			</section>
+			
+			<footer class="container-fluid">
+				<div class="row justify-content-between">
+					<div class="col-lg-3 col-md-4 col-sm-12 whiteTxt d-none d-md-block">
+						<h3>Réseaux emploi</h3>
+						<hr class="whiteBarre"/>						
+						<div class="row justify-content-around">
+							<button type="button" class="btn btn-light" href="https://candidature.pole-emploi.fr/cv/#/1955233079/profils/WPS3SVAMD/" data-toggle="tooltip" data-placement="top" title="Cv sur pôle emploi" target="_blank">
+								<img class="" src="public/images/pole_emploi.png" alt="Pôle emploi"/>
+							</button>
+							<button type="button" class="btn btn-light" href="https://jobs.careerpage.fr/career/pole-emploi/profile/edit/?next=/career/pole-emploi/" data-toggle="tooltip" data-placement="top" title="Cv sur multiposting" target="_blank">
+								<img class="" src="public/images/multiposting.png" alt="Pôle emploi"/>
+							</button>
 						</div>
 					</div>
-					
-				</article>
-				
-			</section>
+					<div class=" col-xl-5 col-lg-8 col-md-7  offset-md-0 col-sm-9  offset-sm-3 redTxt iconredTxt "> 
+						<h3>Compétences détaillées et validées</h3> 
+						<hr class="redBarre"/>
+						<div class=" row justify-content-around">
+							<a href="html/skill.html#devWeb" target="_blank ">
+								<button type="button" class="btn btn-info rounded-circle "  data-toggle="tooltip" data-placement="left" title="Développeur Web">
+									<img class="icon" src="public/images/icon/glyphicons-281-settings.png" alt="Développeur Web"/>
+								</button>
+							</a>
+							<a href="html/skill.html#uxDesi" target="_blank ">
+								<button type="button" class="btn btn-info rounded-circle" data-toggle="tooltip" data-placement="bottom" title="UX Designer">
+									<img class="icon" src="public/images/icon/glyphicons-139-picture.png" alt="UX designer"/>
+								</button>
+							</a>
+							<a href="html/skill.html#resoSocio" target="_blank">
+								<button type="button" class="btn btn-info rounded-circle" data-toggle="tooltip" data-placement="top" title="Animateur réseaux sociaux">
+									<img class="icon" src="public/images/icon/glyphicons-44-group.png" alt="Animateur réseaux sociaux"/>
+								</button>
+							</a>
+							<a href="html/skill.html#skillCMS" target="_blank">
+								<button type="button" class="btn btn-info rounded-circle" data-toggle="tooltip" data-placement="bottom" title="CMS">
+									<img class="icon" src="public/images/icon/glyphicons-138-cogwheels.png" alt="CMS"/>
+								</button>
+							</a>
+							<a href="html/skill.html#gestProj" target="_blank">
+								<button type="button" class="btn btn-info rounded-circle" data-toggle="tooltip" data-placement="top" title="Gestion projet">
+									<img class="icon" src="public/images/icon/glyphicons-692-tree-structure.png" alt="Gestion projet"/>
+								</button>
+							</a>
+							<a href="html/skill.html#logLibre" target="_blank">
+								<button type="button" class="btn btn-info rounded-circle" data-toggle="tooltip" data-placement="right" title="Logiciels libres">
+									<img class="icon" src="public/images/icon/glyphicons-social-frama.png" alt="Logiciels libres"/>
+								</button>
+							</a>
+						
+						</div>
+					</div>			
+					<div class=" col-3 redTxt iconredTxt d-none d-xl-block ">
+						<p>Personnalité (prochainement)</p> 
+						<hr class="redBarre"/>
+						<div class=" row justify-content-around">
+							<button type="button" class="btn btn-success rounded"  data-toggle="tooltip" data-placement="left" title="Au travail" target="_blank">
+								<img class="icon" src="public/images/icon/glyphicons-731-puzzle.png" alt="Au travail"/>
+							</button>
+							<button type="button" class="btn btn-success rounded" data-toggle="tooltip" data-placement="top" title="Culture et Lecture" target="_blank">
+								<img class="icon" src="public/images/icon/glyphicons-88-log-book.png" alt="culture"/>
+							</button>
+							<button type="button" class="btn btn-success rounded" data-toggle="tooltip" data-placement="right" title="Loisirs Sport Divertissements" target="_blank">
+								<img class="icon" src="public/images/icon/glyphicons-18-music.png" alt="Loisirs"/>
+							</button>
+						</div>						
+					</div>
+				</div>
+			</footer>
+			
 		</div>
-     <!-- Optional JavaScript -->
-	 
-	 
+
 		
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 	
-	 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
  
 	<script src="public/js/CVjs.js"></script>
 	
-  </body>
+	</body>
 </html>
