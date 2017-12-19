@@ -3,13 +3,16 @@ $(function () {
   $('[data-toggle="tooltip"]').tooltip();
 });
 
-
-$('#accordion').on('shown.bs.collapse hidden.bs.collapse', function (e) {
-         $(e.target).prev('.panel-heading').find("span.glyphicon").toggleClass('glyphicons-601-chevron-up.png glyphicons-602-chevron-down.png',200, "easeOutSine" );
+$('a[data-toggle="collapse"]').click(function(){
+	
+if( $(this).closest('div.item').next('div.collapse').hasClass('in')){
+	$(this).next('span').removeClass('fa-angle-up').addClass('fa-angle-down');
+	
+}else{
+	$('a[data-toggle="collapse"]').next('span').removeClass('fa-angle-up').addClass('fa-angle-down');
+  
+	$(this).next('span').addClass('fa-angle-up').removeClass('fa-angle-down');
+}
+	
 });
 
-$("button").click(function () {
-	$("ul").toggle(); $(this).children('.fa')
-	.toggleClass('fa-chevron-up fa-chevron-down'); 
-	}); 
-	

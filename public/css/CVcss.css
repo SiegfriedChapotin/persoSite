@@ -38,7 +38,14 @@ body{
 	margin-left:0px;
 	padding-left:0px;
 }
+.fa-eye, .fa-star, .fa-edit{
+	color:black;
+}
 
+.fa-angle-down{
+	color: rgba(109,199,109,1);
+	font-size:bold;
+}
 .btn-info{
 	background-color:rgba(209,138, 80,1);
 }
@@ -65,7 +72,9 @@ body{
 	height:10px;
 	background-color :white;
 }
-
+.contactCadre{
+	text-align:center;
+}
 /* ------texte red---------*/
 
 .redBarre{
@@ -86,7 +95,9 @@ body{
 	list-style-image:url('../images/listRed.png');
 	margin:20px;
 }
-
+.iconredTxt button{
+	font-size:2em;
+	}
 
 /*-----------header-----------*/
 
@@ -144,6 +155,14 @@ footer{
 	padding:20px;
 	border-radius:10px;
 	}
+	.iconredTxt{
+	border:5px solid rgba(178,105, 45,1);
+	background-color:rgba(178,105, 45,0.5);
+	padding:20px;
+	border-radius:10px;
+	}
+
+
 /*------------table--------------*/
 
 .tableSkill{
@@ -181,8 +200,11 @@ background-color: rgba(249,136,136,0.5);
 
 .table-thead{
 	text-align:center;
+	vertical-align:middle;
 }
-
+.table-foot button{
+	color: rgba(101, 46,  0,1);
+}
 tfoot div{
 	padding-left:15px;
 	}
@@ -194,9 +216,6 @@ tfoot div{
     color: white;
 }
 
-.btnTable img{
-	width:90%;
-}
 .btnTable .btn{
 	width:50px;
 	height:50px;
@@ -288,10 +307,14 @@ tfoot div{
 	.item li{
 		padding-bottom:10px;
 }
+	.iconredTxt button{
+	font-size:1.5em;
+}	
+
 
 /*------pied de page-footer------------*/
 
-	.iconredTxt{
+.iconredTxt i{
 		
 	border:none;
 	background-color: rgba(109,199,109,1);
@@ -302,9 +325,8 @@ tfoot div{
 	
 
 /*-------------icon page interne----------*/
-.iconredTxt img{
-	width:90%;
-}
+
+
 .iconredTxt .btn{
 	width:50px;
 	height:50px;
@@ -396,7 +418,10 @@ tbody{
 .item li{
 	padding-bottom:10px;
 }
-
+	
+	.iconredTxt button{
+	font-size:1.5em;
+}
 /*------pied de page-footer------------*/
 
 footer{
@@ -410,9 +435,7 @@ footer{
 	}
 
 /*-------------icon page interne----------*/
-.iconredTxt img{
-	width:90%;
-}
+
 .iconredTxt .btn{
 	width:50px;
 	height:50px;
@@ -488,15 +511,16 @@ tbody span{
 	
 /*------pied de page-footer------------*/
 
-.iconredTxt{
+	.iconredTxt{
 	padding:10px;
 	
 	}
+	.iconredTxt button{
+	font-size:1.5em;
+}
 	
 /*-------------icon page interne----------*/
-.iconredTxt img{
-	width:90%;
-}
+
 .iconredTxt .btn{
 	width:50px;
 	height:50px;
