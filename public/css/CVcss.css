@@ -44,8 +44,12 @@ body{
 
 .fa-angle-down{
 	color: rgba(109,199,109,1);
-	font-size:bold;
+	font-size:1.8em;
+	font-weight:bold;
 }
+.fa-angle-down:hover{
+	color: rgba(249,187,136,1);
+	}
 .btn-info{
 	background-color:rgba(209,138, 80,1);
 }
