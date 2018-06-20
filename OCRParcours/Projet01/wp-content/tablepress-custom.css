@@ -1,0 +1,53 @@
+.column-1 {
+	width: 20%;
+}
+
+.column-2 {
+	width: 50%;
+}
+
+.column-3 {
+	width: 20%;
+}
+
+.column-4 {
+	width: 10%;
+}
+
+.tablepress tbody td.column-4,
+.tablepress tbody td.column-1,
+.tablepress tbody td.column-3 {
+	vertical-align: middle;
+	text-align: center;
+}
+
+.tablepress tfoot th,
+.tablepress thead th {
+	background-color: rgba(218,24,132,0.5);
+}
+
+.tablepress .sorting:hover,
+.tablepress .sorting_asc,
+.tablepress .sorting_desc {
+	background-color: #DA1884;
+}
+
+.tablepress .odd td {
+	background-color: rgba(232,176,18,0.3);
+}
+
+.tablepress .even td {
+	background-color: rgba(232,176,18,0.1);
+}
+
+.tablepress tbody td,
+.tablepress tfoot th {
+	border-top: 2px solid #E8B012;
+}
+
+.tablepress .row-hover tr:hover td {
+	background-color: #B5BE00;
+	color: white;
+	font-weight: bold;
+	font-size: 1.2em;
+}

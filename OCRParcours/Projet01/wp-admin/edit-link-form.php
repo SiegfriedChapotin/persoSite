@@ -11,7 +11,7 @@ if ( !defined('ABSPATH') )
 	die('-1');
 
 if ( ! empty($link_id) ) {
-	$heading = sprintf( __( '<a href="%s">Links</a> / Edit Link' ), 'link-manager.php' );
+	$heading = sprintf( __( '<a href="%s">Links</a> / Modifier Link' ), 'link-manager.php' );
 	$submit_text = __('Update Link');
 	$form_name = 'editlink';
 	$nonce_action = 'update-bookmark_' . $link_id;
