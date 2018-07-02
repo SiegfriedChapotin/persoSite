@@ -1,0 +1,471 @@
+
+ /* Palette color codes */
+
+.rgba-primary-0 { color: rgba(178, 45, 45,1) }	/* Main Primary color */
+.rgba-primary-1 { color: rgba(249,136,136,1) }	/*ligne odd*/
+.rgba-primary-2 { color: rgba(209, 80, 80,1) }	/*ligne pair*/
+.rgba-primary-3 { color: rgba(144, 18, 18,1) }
+.rgba-primary-4 { color: rgba(101,  0,  0,1) }	/*lien hover*/
+
+.rgba-secondary-1-0 { color: rgba(178,105, 45,1) }	/* Main Secondary color (1) */
+.rgba-secondary-1-1 { color: rgba(249,187,136,1) }
+.rgba-secondary-1-2 { color: rgba(209,138, 80,1) }	/*bouton iconCertif .btn-info*/
+.rgba-secondary-1-3 { color: rgba(144, 75, 18,1) }
+.rgba-secondary-1-4 { color: rgba(101, 46,  0,1) }
+
+.rgba-complement-0 { color: rgba( 36,142, 36,1) }	/* Main Complement color */
+.rgba-complement-1 { color: rgba(109,199,109,1) }	/*bouton iconPerso .btn-success*/
+.rgba-complement-2 { color: rgba( 64,167, 64,1) }
+.rgba-complement-3 { color: rgba( 14,115, 14,1) }
+.rgba-complement-4 { color: rgba(  0, 81,  0,1) }	/*lien*/
+
+
+
+body{
+	font-family: 'Montserrat', sans-serif;	
+	}
+
+#main{
+	background:	url('../images/LaMargeOrange.png')no-repeat left top,
+				url('../images/LaBarreOrange.png') repeat-y scroll,
+				url('../images/LaMargeBasOrange.png')no-repeat left bottom;
+				
+	background-size:40%;
+	border-left: 10px solid white;
+}
+
+.no-gutters{
+	margin-left:0px;
+	padding-left:0px;
+}
+
+footer .btn{
+	width:60px;
+	height:60px;
+}
+
+/* ------texte white---------*/
+
+.OrangeTxt{
+	color: rgba(178, 45, 45,1);
+	font-size:1.2em;
+	padding-top:10px;
+	padding-bottom:10px;
+	}
+	
+.OrangeTxt a, .CompAccordion1 a,.OrangeTxt a:hover {
+	color: rgba(  0, 81,  0,1) ;
+}
+
+.whiteBarre{
+	height:10px;
+	background-color :white;
+}
+.contactCadre{
+	text-align:center;
+}
+
+/*-----------header-----------*/
+
+header .jumbotron{
+	margin-bottom:30px;
+	background-color:rgba(209,138, 80,1);
+	box-shadow:20px 20px 10px rgba(101, 46,  0,1);
+}
+
+/*-----------section-----------*/
+#contact .jumbotron{
+		background-color:rgba(178, 45, 45,0);
+		padding:5px;		
+		color: rgba(178, 45, 45,1);
+		text-align:center;
+}
+
+/*------pied de page-footer------------*/
+
+footer{
+	padding-bottom:30px;
+}
+
+.iconredTxt{
+	border:5px solid rgba(178,105, 45,1);
+	background-color:rgba(178,105, 45,0.5);
+	padding:20px;
+	border-radius:10px;
+	}
+	.iconredTxt{
+	border:5px solid rgba(178,105, 45,1);
+	background-color:rgba(178,105, 45,0.5);
+	padding:20px;
+	border-radius:10px;
+	}
+
+
+
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575px) { 
+
+	#main{
+		background:none;
+		background-color: rgba( 36,142, 36,0.5);
+	}
+	
+/* ------texte white---------*/
+	.whiteTxt{
+		font-size:0.9em;
+		
+	}	
+	#skill .whiteTxt{
+		padding-top:20px;
+		padding-bottom:20px;
+		padding-left:0px;
+		padding-right:0px;
+		background-color: rgba(109,199,109,1);	
+		border-radius:10px;
+	}	
+	#skill .whiteTxt h1{
+		font-size:1.5em;
+		color: rgba(144, 18, 18,1);
+		font-weight:bold;
+	}
+	.whiteTxt h3{
+		font-size:1.2em;
+		font-weight:bold;
+		color: rgba(178, 45, 45,1);
+	}
+	#skill .whiteTxt ul{
+		padding-left:0px;
+		
+	}
+	.whiteBarre{
+	height:5px;
+	background-color: rgba(144, 18, 18,1);
+	}
+	
+/* ------texte red---------*/
+
+	.redBarre{
+		height:5px;
+	}
+
+	.redTxt{
+		font-size:0.8em;
+		padding:0px;
+		
+	}
+	.redTxt li,.redTxt ul {		
+		margin:5px;
+		padding:5px;
+		}
+	.redTxt h1, .redTxt h3 {
+	font-size:1.3em;
+	}
+	
+/*-----------header-----------*/
+	header .jumbotron h1{
+		font-size:150%;
+		font-weight:bold;	
+	}
+	
+	header .jumbotron p{
+		font-size:1em;
+		text-align:center;
+	}
+/*-----------section-----------*/
+	
+	#contact .jumbotron h1{
+		text-align:center;
+		font-size:250%;
+		font-weight:bold;
+		color: rgba(144, 18, 18,1);
+	}
+	#contact .jumbotron p{
+		text-align:center;
+		font-size:0.9em;	
+	}
+/* ---------accordeaon----------*/
+
+	.item li{
+		padding-bottom:10px;
+}
+	.iconredTxt button{
+	font-size:1.5em;
+}	
+
+
+/*------pied de page-footer------------*/
+
+.iconredTxt i{
+		
+	border:none;
+	background-color: rgba(109,199,109,1);
+	padding:20px;
+	margin:20px;
+	border-radius:10px;
+	}
+	
+
+/*-------------icon page interne----------*/
+
+
+.iconredTxt .btn{
+	width:50px;
+	height:50px;
+}
+/*--------table------*/
+tbody span{
+	display:none;
+	}
+tbody{
+	font-size:0.8em;
+}
+ }
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767px) {
+	
+	#main{	
+	background-color: rgba(178,105, 45,0.5);
+	}	
+	
+/* ------texte white---------*/
+	.whiteTxt{
+		font-size:0.8em;
+		padding-top:0px;
+		padding-bottom:0px;
+	}	
+	#skill .whiteTxt h1{
+		font-size:2em;
+		color: rgba(144, 18, 18,1);
+	}
+	.whiteTxt h3{
+		font-size:1.2em;
+		font-weight:bold;
+		color: rgba(178, 45, 45,1);
+	}
+	#skill .whiteTxt ul{
+		padding-left:0px;
+	}
+	.whiteBarre{
+	height:5px;
+	background-color: rgba(144, 18, 18,1);
+	}
+	
+/* ------texte red---------*/
+
+	.redBarre{
+		height:5px;
+	}
+
+	.redTxt{
+		font-size:0.8em;
+		padding:0px;
+		
+	}
+	.redTxt li,.redTxt ul {		
+		margin:0px;
+		padding:0px;
+		}
+	.redTxt h1, .redTxt h3{
+	font-size:1.3em;
+	}
+/*-----------header-----------*/
+	header .jumbotron h1{
+		font-size:150%;
+		font-weight:bold;		
+	}
+	header .jumbotron p{
+		font-size:1em;
+	}
+	
+/*-----------section-----------*/
+	
+	#contact .jumbotron h1{
+		text-align:center;
+		font-size:250%;
+		font-weight:bold;
+		color: rgba(101,  0,  0,1);
+	}
+	#contact .jumbotron p{
+		text-align:center;
+		font-size:1em;
+		color: rgba(101,  0,  0,1);
+	}
+		#skill{
+		padding-left:150px;
+	}
+/* ---------accordeaon----------*/
+
+.item li{
+	padding-bottom:10px;
+}
+	
+	.iconredTxt button{
+	font-size:1.5em;
+}
+/*------pied de page-footer------------*/
+
+footer{
+	padding-bottom:30px;
+	padding-top:30px;
+}
+	.iconredTxt{
+		border:none;
+		padding:20px;
+		border-radius:10px;
+	}
+
+/*-------------icon page interne----------*/
+
+.iconredTxt .btn{
+	width:50px;
+	height:50px;
+}
+/*--------table------*/
+tbody span{
+	display:none;
+	}
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991px) { 
+
+	#main{					
+	background-size:55%;
+	}
+
+/* ------texte white---------*/
+	.whiteTxt{
+		font-size:0.9em;
+	}
+	#skill .whiteTxt h1{
+	font-size:2em;
+	}
+	.whiteTxt h3{
+	font-size:1.2em;
+	font-weight:bold;
+	}
+	#skill .whiteTxt ul{
+		padding-left:0px;
+	}
+	.whiteBarre{
+	height:5px;
+	}
+	
+/* ------texte red---------*/
+
+	.redBarre{
+		height:5px;
+	}
+
+	.redTxt{
+		font-size:0.8em;
+		padding-bottom:10px;
+		
+	}
+	.redTxt li,.redTxt ul {		
+		margin-left:0px;
+		padding-left:0px;
+		}
+	.redTxt h1, .redTxt h3 {
+	font-size:1.3em;
+	}
+/*-----------header-----------*/
+	.jumbotron h1{
+		font-size:200%;
+		font-weight:bold;	
+	}
+	.jumbotron p{
+		font-size:0.9em;
+	}
+/*-----------section-----------*/
+
+	#contact .jumbotron h1{
+		text-align:center;
+		font-size:250%;
+	}
+	
+	#contact .jumbotron p{
+		text-align:center;
+		font-size:0.9em;	
+	}
+	
+/*------pied de page-footer------------*/
+
+	.iconredTxt{
+	padding:10px;
+	
+	}
+	.iconredTxt button{
+	font-size:1.5em;
+}
+	
+/*-------------icon page interne----------*/
+
+.iconredTxt .btn{
+	width:50px;
+	height:50px;
+}
+
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1219px) {
+	
+	#main{					
+	background-size:45%;	
+}
+/* ------texte white---------*/
+	.whiteTxt{
+	font-size:1em;
+	}
+	#skill .whiteTxt h1{
+	font-size:2em;
+	}
+	.whiteTxt h3{
+	font-size:1.2em;
+	font-weight:bold;
+	}
+	#skill .whiteTxt ul{
+		padding-left:0px;
+	}
+	.whiteBarre{
+	height:5px;
+	}
+
+/* ------texte red---------*/
+
+	.redBarre{
+		height:5px;
+	}
+
+	.redTxt{
+		font-size:1em;
+		padding-bottom:20px;
+	}
+	.redTxt li{		
+		margin:10px;
+		}
+	.redTxt h1, .redTxt h3 {
+	font-size:2em;
+	}
+	
+/*-----------section-----------*/
+
+	#contact .jumbotron h1{
+		text-align:center;
+		font-size:300%;
+	}
+	
+	#contact .jumbotron p{
+		text-align:center;
+	}
+/*--------table------*/
+tbody span{
+	display:none;
+	}
+}
+
+/* Extra large devices (large desktops, 1220px and up)*/
+@media (min-width: 1220px) { ... }
