@@ -1,0 +1,404 @@
+/* Extra small devices (portrait phones, less than 576px)*/
+
+
+@media (min-width: 575px) {
+
+    #main {
+        background-size: 100%;
+        border-left: 10px solid white;
+    }
+
+    .marginTB{
+        margin:0px;
+    }
+
+    /* ------texte white---------*/
+    .whiteTxt {
+        font-size: 0.9em;
+    }
+
+    #skill .whiteTxt {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 0px;
+        padding-right: 0px;
+        background-color: rgba(109, 199, 109, 1);
+        border-radius: 10px;
+    }
+
+    #skill .whiteTxt h1 {
+        font-size: 1em;
+        color: rgba(144, 18, 18, 1);
+        font-weight: bold;
+    }
+
+    .whiteTxt h3 {
+        font-size: 1.2em;
+        font-weight: bold;
+        color: rgba(178, 45, 45, 1);
+    }
+
+    #skill .whiteTxt ul {
+        padding-left: 0px;
+
+    }
+
+    .whiteBarre {
+        height: 5px;
+        background-color: rgba(144, 18, 18, 1);
+    }
+
+    /* ------texte red---------*/
+    .redBarre {
+        height: 5px;
+    }
+
+    .redTxt {
+        font-size: 0.8em;
+        padding: 0px;
+
+    }
+
+    .redTxt li, .redTxt ul {
+        margin: 5px;
+        padding: 5px;
+    }
+
+    .redTxt h1, .redTxt h3 {
+        font-size: 1.3em;
+    }
+
+    /*-----------header-----------*/
+    #jumbotronRed h1 {
+        font-size: 150%;
+        font-weight: bold;
+    }
+
+    #jumbotronRed p {
+        font-size: 1em;
+    }
+
+    #jumbotronWhite h1 {
+        font-size: 150%;
+        font-weight: bolder;
+        color: rgba(144, 18, 18, 1);
+    }
+
+    #jumbotronWhite {
+        width: 70%;
+    }
+
+    #jumbotronWhite p {
+        text-align: left;
+        font-size: 0.9em;
+        color: white;
+    }
+
+    /* ---------accordeaon----------*/
+    .item li {
+        padding-bottom: 10px;
+    }
+
+    .iconredTxt button {
+        font-size: 1.5em;
+    }
+
+
+    /*------pied de layout-footer------------*/
+    .iconredTxt i {
+
+        border: none;
+        background-color: rgba(109, 199, 109, 1);
+        padding: 20px;
+        margin: 20px;
+        border-radius: 10px;
+    }
+
+
+    /*-------------icon layout interne----------*/
+    .iconredTxt .btn {
+        width: 50px;
+        height: 50px;
+    }
+
+    /*--------table------*/
+    tbody span {
+        display: none;
+    }
+
+    tbody {
+        font-size: 0.8em;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px)  {
+
+    #main {
+        background-color: rgba(178, 105, 45, 0.5);
+    }
+
+    /* ------texte white---------*/
+    .whiteTxt {
+        font-size: 0.8em;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    #skill .whiteTxt h1 {
+        font-size: 2em;
+        color: rgba(144, 18, 18, 1);
+    }
+
+    .whiteTxt h3 {
+        font-size: 1.2em;
+        font-weight: bold;
+        color: rgba(178, 45, 45, 1);
+    }
+
+    #skill .whiteTxt ul {
+        padding-left: 0px;
+    }
+
+    .whiteBarre {
+        height: 5px;
+        background-color: rgba(144, 18, 18, 1);
+    }
+
+    /* ------texte red---------*/
+    .redBarre {
+        height: 5px;
+    }
+
+    .redTxt {
+        font-size: 0.8em;
+        padding: 0px;
+
+    }
+
+    .redTxt li, .redTxt ul {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .redTxt h1, .redTxt h3 {
+        font-size: 1.3em;
+    }
+
+    /*-----------header-----------*/
+    header .jumbotron h1 {
+        font-size: 150%;
+        font-weight: bold;
+    }
+
+    header .jumbotron p {
+        font-size: 1em;
+    }
+
+    /*-----------section-----------*/
+    #contact .jumbotron h1 {
+        text-align: center;
+        font-size: 250%;
+        font-weight: bold;
+        color: rgba(101, 0, 0, 1);
+    }
+
+    #contact .jumbotron p {
+        text-align: center;
+        font-size: 1em;
+        color: rgba(101, 0, 0, 1);
+    }
+
+    #skill {
+        padding-left: 150px;
+    }
+
+    /* ---------accordeaon----------*/
+    .item li {
+        padding-bottom: 10px;
+    }
+
+    .iconredTxt button {
+        font-size: 1.5em;
+    }
+
+    /*------pied de layout-footer------------*/
+    footer {
+        padding-bottom: 30px;
+        padding-top: 30px;
+    }
+
+    .iconredTxt {
+        border: none;
+        padding: 20px;
+        border-radius: 10px;
+    }
+
+    /*-------------icon layout interne----------*/
+    .iconredTxt .btn {
+        width: 50px;
+        height: 50px;
+    }
+
+    /*--------table------*/
+    tbody span {
+        display: none;
+    }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+
+    #jumbotronContent{
+        background-color:rgba(178, 45, 45,1);
+        box-shadow:20px 20px 10px rgba(101,  0,  0,1);
+    }
+
+    #main {
+        background-size: 55%;
+    }
+
+
+    /* ------texte white---------*/
+    .whiteTxt {
+        font-size: 0.9em;
+    }
+
+    #skill .whiteTxt h1 {
+        font-size: 2em;
+    }
+
+    .whiteTxt h3 {
+        font-size: 1.2em;
+        font-weight: bold;
+    }
+
+    #skill .whiteTxt ul {
+        padding-left: 0px;
+    }
+
+    .whiteBarre {
+        height: 5px;
+    }
+
+    /* ------texte red---------*/
+    .redBarre {
+        height: 5px;
+    }
+
+    .redTxt {
+        font-size: 0.8em;
+        padding-bottom: 10px;
+
+    }
+
+    .redTxt li, .redTxt ul {
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+
+    .redTxt h1, .redTxt h3 {
+        font-size: 1.3em;
+    }
+
+    /*----header-----------*/
+    .jumbotron h1 {
+        font-size: 200%;
+        font-weight: bold;
+    }
+
+    .jumbotron p {
+        font-size: 0.9em;
+    }
+
+    /*-----------section-----------*/
+    #contact .jumbotron h1 {
+        text-align: center;
+        font-size: 250%;
+    }
+
+    #contact .jumbotron p {
+        text-align: center;
+        font-size: 0.9em;
+    }
+
+    /*------pied de layout-footer------------*/
+    .iconredTxt {
+        padding: 10px;
+
+    }
+
+    .iconredTxt button {
+        font-size: 1.5em;
+    }
+
+    /*-------------icon layout interne----------*/
+    .iconredTxt .btn {
+        width: 50px;
+        height: 50px;
+    }
+
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px){
+
+    #main {
+        background-size: 45%;
+    }
+
+    /* ------texte white---------*/
+    .whiteTxt {
+        font-size: 1em;
+    }
+
+    #skill .whiteTxt h1 {
+        font-size: 2em;
+    }
+
+    .whiteTxt h3 {
+        font-size: 1.2em;
+        font-weight: bold;
+    }
+
+    #skill .whiteTxt ul {
+        padding-left: 0px;
+    }
+
+    .whiteBarre {
+        height: 5px;
+    }
+
+    /* ------texte red---------*/
+    .redBarre {
+        height: 5px;
+    }
+
+    .redTxt {
+        font-size: 1em;
+        padding-bottom: 20px;
+    }
+
+    .redTxt li {
+        margin: 10px;
+    }
+
+    .redTxt h1, .redTxt h3 {
+        font-size: 2em;
+    }
+
+    /*-----------section-----------*/
+    #contact .jumbotron h1 {
+        text-align: center;
+        font-size: 300%;
+    }
+
+    #contact .jumbotron p {
+        text-align: center;
+    }
+
+    /*--------table------*/
+    tbody span {
+        display: none;
+    }
+}

@@ -1,0 +1,127 @@
+<div class="col-12 col-sm-11 offset-sm-1 offset-md-0 col-md-7 col-lg-8 offset-xl-1 col-xl-8   redTxt">
+    <div class="row marginTB ">
+        <div class="col-11">
+            <div>
+                <h3>Compétences professionnelles</h3>
+                <hr class="redBarre"/>
+
+
+                <p>J’ai encadré de nombreux projets et plusieurs équipes. Responsable dans
+                    diverses structures de l’économie sociale et solidaire, cette capacité à
+                    l’encadrement a été validée par des formations internes.
+                </p>
+                <p>Commercial dans de nombreux emplois, dont 8 ans chez Darty, j'ai la
+                    capacité d'écouter le client, de la découverte à la formulation et de la
+                    proposition jusqu'à la vente.
+                </p>
+                <p>Depuis plusieurs années, mes activités de chargé en communication
+                    m’ont obligé de me former sur les outils NTIC. J'attache une importance
+                    particulière aux logiciels libres. Mes aptitudes sont celles d'un développeur
+                    Front-End et d'un Web designer.
+                </p>
+
+            </div>
+
+            <div id="CompAccordion">
+                <div class="item">
+                    <a class="accordionTitreCV" data-toggle="collapse" data-parent="#Compccordion"
+                       href="#CompAccordion1" aria-expanded="false" aria-controls="CompAccordion1">
+                        Mes compétences professionnelles &emsp;
+                        <i class="fas fa-angle-down fa-lg"></i>
+                    </a>
+                    <div id="CompAccordion1" class="collapse" role="tabpanel">
+                        <div class="bgwhite">
+                            <p>J’ai pris le soin de détailler l’ensemble de mes compétences pour vous faire une idée
+                                très
+                                précise de
+                                l’ensemble de mes savoir-faire numériques. Vous les trouverez
+                                <span class="badge badge-info">
+                                <a href="{{ asset('skills#devWeb') }}" target="_blank "> ici</a>
+                                </span>
+                            </p>
+                            <p class="accordionText">Dans le même temps, ce CV interactif a pour objet d’illustrer mes
+                                compétences et pas simplement de les énumérer. Vous trouverez certains de mes ouvrages
+                                qui
+                                permettrons de
+                                vous faire une opinion.<span class="badge badge-info">
+                            <a href="#realisations"
+                               target="_blank ">voir rubrique "Derniers projets réalisés"</a></span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row marginTB">
+        <div class="col-11">
+            <div>
+                <h3>Les clés de mon parcours professionnel</h3>
+                <hr class="redBarre"/>
+
+                <p><span class="date">2016</span> Porteur de projet multimédia dans l'économie sociale et solidaire
+                    Animateur de projet communication et multimédia dans l'ESS. Communication interne/
+                    externe. Développement de réseaux sociaux. Stratégie de communication. Site,
+                    illustrations, identifiant, logo,etc...
+                    Ouvre Boite 44Conception de publication
+                </p>
+                <p><span class="date">2013</span> Rédacteur, chargé de communication et relation
+                    Gestion poste administratif, chargé des relations publiques et administratives.
+                    Préparation cessions parlementaires. Création d'un site Internet et d'un réseau de
+                    communication. Création graphique, logo, pour support communication.
+                    Conseil Régional des Pays de la Loire/ Mairie de Nantes
+                </p>
+                <p><span class="date">2007</span> Secrétaire départemental d'une association d'économie sociale
+                    Encadrement d'une structure départementale, animation et organisation des débats et des
+                    activités. Gestion d'un budget, de locaux multi-sites. Développement des réseaux
+                    d'informations dans les milieux associatifs, sociaux et les collectivités
+                    Organisation de l'économie sociale ( Yonne 89 - durée d'un mandat).
+                </p>
+
+            </div>
+            <div id="ExpAccordion">
+                <div class="item">
+                    <a class="accordionTitreCV" data-toggle="collapse" data-parent="#ExpAccordion"
+                       href="#ExpAccordion1" aria-expanded="false" aria-controls="ExpAccordion1">
+                        Mes expériences professionnelles &emsp;
+                        <i class="fas fa-angle-down fa-lg"></i>
+                    </a>
+                    <div id="ExpAccordion1" class="collapse" role="tabpanel">
+                        <div class="bgwhite">
+                            <ul>
+                                {% for skill in skill|reverse %}
+                                    <li>
+                                        <span class="date">{{ skill.year }} ({{ skill.period }})</span>
+                                        <i class="fas fa-long-arrow-alt-right"></i><strong> {{ skill.job }}</strong>
+                                        <br/>
+                                        <span class="date"><i class="fa fa-address-card"
+                                                              aria-hidden="true"></i> {{ skill.company }}
+                                    <i class="fa fa-map-pin" aria-hidden="true"></i> {{ skill.town }}</span><br/>
+                                        <p> {{ skill.resume }}</p>
+                                    </li>
+                                {% endfor %}
+
+                            </ul>
+                            <p>Un long parcours dans l’économie sociale (+ de 20 ans d’expérience) m’a permis d’occuper
+                                de
+                                nombreuses responsabilités du niveau local jusqu’au niveau national</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row marginTB jumbotronOcre">
+        <div class="col-11">
+            <h3>Formation</h3>
+            <hr class="redBarre"/>
+            <P><span class="date">2018-2019</span> "Chef projet multimedia" - Certificats Open-Classerom (en cours)
+            </P>
+            <P><span class="date">2017</span> "Intégrateur Web" - Certificats Open-Classerom (obtenu)</P>
+            <P><span class="date">1996</span> 1er année DEUG Histoire, (Université de Franche Comte)</P>
+            <p><span class="date">1993</span> DEUG lettres modernes (Université de Bourgogne)</p>
+        </div>
+    </div>
+</div>

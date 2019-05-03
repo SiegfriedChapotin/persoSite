@@ -1,0 +1,609 @@
+/* Palette color codes */
+
+.rgba-primary-0 { color: rgba(178, 45, 45,1) }	/* Main Primary color */
+.rgba-primary-1 { color: rgba(249,136,136,1) }	/*ligne odd*/
+.rgba-primary-2 { color: rgba(209, 80, 80,1) }	/*ligne pair*/
+.rgba-primary-3 { color: rgba(144, 18, 18,1) }
+.rgba-primary-4 { color: rgba(101,  0,  0,1) }	/*lien hover*/
+
+.rgba-secondary-1-0 { color: rgba(178,105, 45,1) }	/* Main Secondary color (1) */
+.rgba-secondary-1-1 { color: rgba(249,187,136,1) }
+.rgba-secondary-1-2 { color: rgba(209,138, 80,1) }	/*bouton iconCertif .btn-info*/
+.rgba-secondary-1-3 { color: rgba(144, 75, 18,1) }
+.rgba-secondary-1-4 { color: rgba(101, 46,  0,1) }
+
+.rgba-complement-0 { color: rgba( 36,142, 36,1) }	/* Main Complement color */
+.rgba-complement-1 { color: rgba(109,199,109,1) }	/*bouton iconPerso .btn-success*/
+.rgba-complement-2 { color: rgba( 64,167, 64,1) }
+.rgba-complement-3 { color: rgba( 14,115, 14,1) }
+.rgba-complement-4 { color: rgba(  0, 81,  0,1) }	/*lien*/
+
+
+
+/*lien*/
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#main {
+    background: url('../images/LaMarge.png') no-repeat left top,
+    url('../images/LaBarre.png') repeat-y scroll,
+    url('../images/LaMargeBas.png') no-repeat left bottom;
+    background-size: 100%;
+    border-left: 10px solid white;
+    background-color: rgba(178, 105, 45, 0.5);
+}
+
+.no-gutters {
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+.padding10 {
+    padding: 10px;
+}
+
+.marginTB {
+    margin: 50px 0px;
+}
+
+.fa-angle-down {
+    color: rgba(109, 199, 109, 1);
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+.fa-angle-down:hover {
+    color: rgba(249, 187, 136, 1);
+}
+
+.btn-info {
+    background-color: rgba(209, 138, 80, 1);
+}
+
+.btn-success {
+    background-color: rgba(109, 199, 109, 1);
+}
+
+#projet .btn, #projet .dropdown {
+    width: 100%;
+}
+
+.fa-eye, .fa-star, .fa-edit{
+    color:black;
+}
+/* ------texte white---------*/
+
+.whiteTxt {
+    color: white;
+    font-size: 1em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.whiteTxt a, .CompAccordion1 a {
+    color: rgba(0, 81, 0, 1);
+    font-weight: bold;
+}
+
+.whiteTxt a:hover {
+    color: rgba(101, 0, 0, 1);
+}
+
+.whiteTxt hr {
+    height: 10px;
+    background-color: white;
+}
+
+.certifSkill {
+    text-align: center;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+/* ------texte red---------*/
+.redTxt{
+    font-size:1em;
+    text-align:justify;
+    padding-bottom:20px;
+}
+
+.redTxt h1, .date,.redTxt h3{
+    color :rgba(144, 18, 18,1);
+    font-weight: bolder;
+}
+
+.redTxt li{
+    list-style-image:url('../images/listRed.png');
+    margin:20px;
+}
+.redBarre{
+    height:10px;
+    background-color :rgba(144, 18, 18,1);
+
+}
+/*-----------header-----------*/
+header .fa-2x {
+    font-size: 1.5em;
+}
+
+ .jumbotronRed{
+    padding: 30px;
+}
+
+#jumbotronRed, .jumbotronRed{
+    background-color: rgba(178, 45, 45, 1);
+    box-shadow: 20px 20px 10px rgba(101, 0, 0, 1);
+    margin-bottom: 30px;
+}
+
+.jumbotronOcre{
+    background-color: rgba(178, 105, 45, 1);
+    box-shadow: 20px 20px 10px rgba(101, 46,  0,1);
+    margin-bottom: 30px;
+}
+
+#jumbotronRed h1 {
+    font-size: 200%;
+    font-weight: bold;
+}
+
+#jumbotronRed p {
+    font-size: 0.9em;
+}
+
+#jumbotronWhite {
+    padding: 5px;
+    color: whitesmoke;
+    text-align: center;
+    background-color: rgba(178, 105, 45, 1);
+}
+
+#jumbotronWhite p {
+    font-size: 1em;
+}
+
+#jumbotronWhite h1 {
+    font-size: 300%;
+    font-weight: bold;
+
+}
+
+/* ---------accordeaon----------*/
+
+.item .accordionTitreCV {
+    color: rgba(109, 199, 109, 1);
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.item a{
+    text-decoration:none;
+}
+
+.accordionTitreCV:hover {
+    color: rgba(249, 187, 136, 1);
+}
+
+.bgwhite{
+    padding: 10px;
+    background : rgba(240, 240, 240, 0.5);
+}
+.Date{
+    font-size:0.8em;
+}
+
+.accordionText, .accordionText li {
+    text-align:left;
+    list-style-image:none;
+    margin:0px;
+}
+ol {
+    list-style-type:upper-roman;
+}
+ol ul {
+    list-style-type:square;
+}
+
+/*------pied de layout-footer------------*/
+
+footer{
+    padding:30px;
+    background-color:rgba(209,138, 80,1);
+
+}
+
+.iconFooterTxt h3{
+    font-size: 100%;
+}
+
+.iconFooterTxt button{
+    font-size:1em;
+}
+
+.btn-info{
+    background-color:rgba(209,138, 80,1);
+}
+.btn-success {
+    background-color:rgba(109,199,109,1);
+}
+
+/*------------table--------------*/
+
+.tableSkill{
+    padding-top:100px;
+}
+
+.table tr:nth-child(even){
+    background-color: rgba(209, 80, 80,1);
+    color:white;
+ }
+
+
+.table tr:nth-child(odd){
+    background-color: rgba(249,187,136,1);
+}
+
+.table tr:hover {
+    background-color: rgba(109,199,109,1);
+}
+.item div{
+    background-color:white;
+    color: rgba(101,  0,  0,1);
+    padding:5px;
+    font-size:0.8em;
+}
+
+.item div p::first-letter{
+    font-size:1.5em;
+}
+
+.item a{
+    color:white;
+}
+
+.table-thead{
+    text-align:center;
+    vertical-align:middle;
+}
+
+.table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: rgba(178, 45, 45,1);
+    color: white;
+}
+
+.table-foot button {
+    color: rgba(101, 46, 0, 1);
+}
+
+tfoot div{
+    padding-left:15px;
+}
+
+
+.btnTable .btn{
+    width:50px;
+    height:50px;
+}
+
+.hiddenTfoot{
+    display:none;
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+
+
+    #main {
+        background-size: 67%;
+        background-color: rgba(178, 105, 45, 0);
+    }
+
+    .marginTB{
+        margin:20px 0px;
+    }
+
+    .item div{
+        font-size:1em;
+    }
+    /* ------texte white---------*/
+
+    .whiteTxt {
+        font-size: 0.8em;
+    }
+
+    .whiteTxt hr {
+        height: 5px;
+    }
+
+    .whiteTxt h3 {
+        font-size: 150%;
+        font-weight: bold;
+    }
+
+    /* ------texte red---------*/
+    .redTxt{
+        font-size:0.8em;
+        padding-bottom:20px;
+        padding-left: 50px;
+    }
+
+    .redTxt h1, .date,.redTxt h3{
+        font-size: 100%;
+    }
+
+    .redBarre{
+        height:5px;
+     }
+    /*-----------header-----------*/
+
+    #jumbotronWhite h1 {
+        font-size: 250%;
+      }
+
+    #jumbotronRed, .jumbotronRed{
+        background-color: rgba(178, 45, 45, 1);
+        box-shadow: 20px 20px 10px rgba(101, 0, 0, 1);
+        margin-bottom: 30px;
+    }
+
+    #jumbotronRed h1{
+        font-size: 200%;
+        font-weight: bold;
+    }
+
+    .jumbotronRed h4, .jumbotronRed h3{
+        font-size: 100%;
+        font-weight: bold;
+    }
+
+    .jumbotronOcre p {
+        font-size: 0.9em;
+    }
+
+    .jumbotronRed a, .jumbotronRed button {
+        font-size: 0.7em;
+    }
+
+    /*------pied de layout-footer------------*/
+
+    footer{
+        padding-bottom:30px;
+    }
+
+    .iconFooterTxt{
+        border:5px solid rgba(178,105, 45,0);
+        background-color:rgba(178,105, 45,0.5);
+        padding:10px;
+        border-radius:10px;
+    }
+
+    .iconFooterTxt button{
+        font-size:1.8em;
+    }
+
+    .btn-info{
+        background-color:rgba(209,138, 80,1);
+    }
+    .btn-success{
+        background-color:rgba(109,199,109,1);
+    }
+
+    .hiddenTfoot{
+        display:block;
+    }
+    .hiddenArrow{
+        display:none;
+    }
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px){
+
+    #main {
+        background-size: 56%;
+    }
+
+    /*-----------header-----------*/
+
+    .jumbotronOcre{
+        padding: 20px;
+    }
+
+    /* ------texte white---------*/
+    .whiteTxt {
+        font-size: 1em;
+    }
+
+    #skill .whiteTxt h1 {
+        font-size: 2em;
+    }
+
+    .whiteTxt h3 {
+        font-size: 1.2em;
+        font-weight: bold;
+    }
+
+    #skill .whiteTxt ul {
+        padding-left: 0px;
+    }
+
+
+    /* ------texte red---------*/
+
+    .redTxt {
+        font-size: 1em;
+        padding-left: 60px;
+    }
+
+    .redTxt h1, .redTxt h3 {
+        font-size: 1.5em;
+    }
+
+    /*------pied de layout-footer------------*/
+
+    footer{
+        padding:30px;
+        background-color:rgba(209,138, 80,1);
+    }
+    .empl{
+        width:40%;
+        height:40%;
+    }
+    .iconFooterTxt h3{
+        font-size: 100%;
+    }
+
+    .iconFooterTxt button{
+        font-size:1.5em;
+    }
+
+    .iconFooterTxt{
+        border:5px solid rgba(178,105, 45,0);
+        background-color:rgba(178,105, 45,0);
+        padding:10px;
+        border-radius:10px;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+    #main {
+        background-size: 45%;
+    }
+
+    .marginTB {
+        margin: 30px 0px;
+    }
+
+    /* ------texte white---------*/
+    .whiteTxt {
+        font-size: 0.9em;
+    }
+
+    .whiteTxt h3 {
+        font-size: 1.5em;
+    }
+
+    /* ------texte red---------*/
+    .redTxt {
+        font-size: 1em;
+    }
+
+    /*-----------header-----------*/
+    header .fa-2x {
+        font-size: 2em;
+    }
+
+    .jumbotronOcre {
+        background-color: rgba(178, 105, 45, 0);
+        box-shadow: 20px 20px 10px rgba(101, 46, 0, 0);
+    }
+
+    #jumbotronRed h1 {
+        font-size: 300%;
+    }
+
+    #jumbotronRed p {
+        font-size: 1.2em;
+    }
+
+    .jumbotronRed h4, .jumbotronRed h3{
+        font-size: 100%;
+        font-weight: bold;
+    }
+
+    .jumbotronOcre p {
+        font-size: 0.9em;
+    }
+    #jumbotronWhite {
+        color: rgba(101, 0, 0, 1);
+        text-align: center;
+        background-color: rgba(178, 105, 45, 0);
+    }
+
+    #jumbotronWhite p {
+        font-size: 1.2em;
+    }
+
+    #jumbotronWhite h1 {
+        font-size: 300%;
+    }
+    /*------pied de layout-footer------------*/
+
+    .empl{
+        width:80%;
+        height:80%;
+    }
+
+    .iconFooterTxt h3{
+        font-size: 150%;
+    }
+
+    .iconFooterTxt button{
+        font-size:2em;
+    }
+
+}
+
+/* Extra large devices (large desktops, 1500px and up)*/
+@media (min-width: 1500px) {
+
+    .marginTB {
+        margin: 50px 0px;
+    }
+
+    /* ------texte white---------*/
+    .whiteTxt {
+        font-size: 1em;
+    }
+
+    .whiteTxt h3 {
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+
+    /* ------texte red---------*/
+    .redTxt {
+        font-size: 1.2em;
+    }
+
+    /*-----------header-----------*/
+    header .fa-2x {
+        font-size: 2.3em;
+    }
+
+    #jumbotronWhite p {
+        font-size: 1.5em;
+    }
+
+    #jumbotronWhite h1 {
+        font-size: 400%;
+        font-weight: bold;
+    }
+    .paddingBot{
+        margin-bottom: 50px;
+    }
+    .jumbotronRed a, .jumbotronRed button {
+        font-size: 0.9em;
+    }
+
+    /*------pied de layout-footer------------*/
+
+    .empl{
+        width:80%;
+        height:80%;
+    }
+
+    .iconFooterTxt h3{
+        font-size: 120%;
+    }
+
+    .iconFooterTxt button{
+        font-size:2.3em;
+    }
+}

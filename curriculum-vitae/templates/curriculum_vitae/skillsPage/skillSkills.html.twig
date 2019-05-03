@@ -1,0 +1,367 @@
+<div class="marginTB col-12 col-sm-12  col-md-12 col-lg-12 offset-xl-1 col-xl-8 redTxt">
+
+    <div>
+        <table id="devWeb" class="table table-responsive marginTB">
+            <thead>
+            <tr class="table-thead">
+                <th colspan="4">
+                    <i class="fas fa-code fa-2x"></i>
+                    &emsp;<a>Développeur Web</a>
+                </th>
+            </tr>
+            <tr>
+                <th colspan="4">
+                    <div id="brefAccordion">
+                        <div class="item">
+                            <a class="accordionTitre" data-toggle="collapse" data-parent="#brefAccordion"
+                               href="#brefAccordion1" aria-expanded="false" aria-controls="brefAccordion1">
+                                Indications détaillées de mes compétences &emsp;
+                                <i class="fas fa-angle-down fa-lg"></i>
+                            </a>
+                            <div id="brefAccordion1" class="collapse" role="tabpanel">
+                                <p>Je suis venu à l’informatique et à la programmation web, pour répondre aux
+                                    besoins d’organisation et de communication des structures associatives que j’ai
+                                    animées.</p>
+                                <p>Concrètement, j’ai fait mes premières pages avec html 4 et Xhtml, en utilisant
+                                    des programmes du type Komposer. J’ai commencé dans le même moment, à manipuler
+                                    php avec spip. </p>
+                                <p>Mais très rapidement, je me suis rabattu sur le CMS dotClear et ensuite sur
+                                    d’autres comme Wordpress. Les raisons sont simples, la maniabilité et
+                                    l’efficacité étaient pertinentes par rapport aux finalités et aux besoins que
+                                    j'avais dans le domaine de la communication numérique.</p>
+                                <p>Ainsi pendant une longue période, j’ai acquis des bases plutôt solides dans le
+                                    domaine de l’agencement de site internet. En même temps, j’ai développé mes
+                                    savoir sur la manipulation de certains programmes concomitants à l’utilisation
+                                    des CMS, comme Html5, Css3 et Jquery.</p>
+                                <p>Pour autant, toutes ces compétences acquises ne suffisent pas à identifier un
+                                    profil de développeur informatique. C’est la raison pour laquelle, je me suis
+                                    inscrit sur la plate-forme OpenClassrooms pour suivre des cours en ligne. </p>
+                                <p>Depuis, j’ai validé un certains nombres d’acquis et j’ai beaucoup progressé
+                                    surtout sur la partie Front-end.</p>
+                            </div>
+                        </div>
+                    </div>
+                </th>
+            </tr>
+            {% include ('curriculum_vitae/skillsPage/skillsPageGeneric/thead.html.twig') %}
+            </thead>
+
+            <tbody>
+            {% for developer in developer %}
+                <tr>
+                    <td>{{ developer.title }} </td>
+                    <td><img src="images/gauge/{{ developer.level }}" alt="xp3"/></td>
+                    <td>{{ developer.training }}</td>
+                    <td class="text-center"><a class="btn" {{developer.link}}
+                                               data-toggle="tooltip" data-placement="top"
+                                               title="{{ developer.tooltip }}">
+                            <i class="{{ developer.debenture }}"></i>
+                        </a>
+                    </td>
+                </tr>
+            {% endfor %}
+            </tbody>
+
+            <tfoot>
+            {% include ('curriculum_vitae/skillsPage/skillsPageGeneric/tfoot.html.twig') %}
+            </tfoot>
+        </table>
+    </div>
+
+    <div>
+        <table id="uxDesi" class="table table-responsive marginTB">
+            <thead>
+            <tr class="table-thead">
+                <th colspan="4">
+                    <i class="far fa-images fa-2x"></i>
+                    &emsp;<a>Ux-Designer</a>
+                </th>
+            </tr>
+            <tr>
+                <th colspan="4">
+                    <div id="UxAccordion">
+                        <div class="item">
+                            <a class="accordionTitre" data-toggle="collapse" data-parent="#UxAccordion"
+                               href="#UxAccordion1" aria-expanded="false" aria-controls="UxAccordion1">
+                                Indications détaillées de mes compétences &emsp;
+                                <i class="fas fa-angle-down fa-lg"></i>
+                            </a>
+                            <div id="UxAccordion1" class="collapse" role="tabpanel">
+                                <p>Pour moi, la création graphique est un élément important dans le cheminement
+                                    d’un projet. Dans l’ensemble de mes activités, j’ai toujours attaché autant
+                                    d’importance, à l’illustration et à la mise en page, qu’au contenu d’un
+                                    document.</p>
+                                <p>Et même si, comme beaucoup, j’ai eu à confondre graphisme et design dans un
+                                    premier temps. Je garde en mémoire, l’importance méthodologique que peut
+                                    avoir un cheminement autour d’une charte graphique. J’en attache d’autant
+                                    plus d’important aux conceptions du design.</p>
+                                <p>J’ai eu à conduire un projet en tant qu’Ux-designer, qui n’a pas pu aboutir
+                                    faute de moyen financier. Pour autant, mon expérience de responsable
+                                    associatif et mes connaissances techniques m'ont permis de largement
+                                    confirmer mon appétence pour cette compétence.</p>
+                                <p>J’ai fait une série de cours sur ce profil, pour parfaire mes connaissances
+                                    techniques. Dans mon ensemble de compétences, c’est un élément fort de mon
+                                    profil.</p>
+                            </div>
+                        </div>
+                    </div>
+                </th>
+            </tr>
+            {% include ('curriculum_vitae/skillsPage/skillsPageGeneric/thead.html.twig') %}
+            </thead>
+
+
+            <tbody>
+            {% for designer in designer %}
+                <tr>
+                    <td>{{ designer.title }} </td>
+                    <td><img src="images/gauge/{{ designer.level }}" alt="xp3"/></td>
+                    <td>{{ designer.training }}</td>
+                    <td class="text-center"><a class="btn" {{designer.link}}
+                                               data-toggle="tooltip" data-placement="top" title="{{ designer.tooltip }}">
+                            <i class="{{ designer.debenture }}"></i>
+                        </a>
+                    </td>
+                </tr>
+            {% endfor %}
+            </tbody>
+
+
+            <tfoot>
+            {% include ('curriculum_vitae/skillsPage/skillsPageGeneric/tfoot.html.twig') %}
+            </tfoot>
+        </table>
+    </div>
+
+    <div>
+        <table id="resoSocio" class="table table-responsive marginTB">
+            <thead>
+            <tr class="table-thead">
+                <th colspan="4">
+                    <i class="fas fa-users fa-2x"></i>
+                    &emsp;<a>Animateur réseaux sociaux</a>
+                </th>
+            </tr>
+            <tr>
+                <th colspan="4">
+                    <div id="RSAccordion">
+                        <div class="item">
+                            <a class="accordionTitre" data-toggle="collapse" data-parent="#RSAccordion"
+                               href="#RSAccordion1" aria-expanded="false" aria-controls="RSAccordion1">
+                                Indications détaillées de mes compétences &emsp;
+                                <i class="fas fa-angle-down fa-lg"></i>
+                            </a>
+                            <div id="RSAccordion1" class="collapse" role="tabpanel">
+                                <p>La création, la gestion et le développement des réseaux sociaux sont des
+                                    compétences acquises par-delà mes fonctions d’animateur associatif. Aucunes
+                                    des fonctions que j’ai occupées ne pouvaient se structurer sans ces
+                                    compétences.</p>
+                                <p>Les milieux, dans lesquels j’ai opéré, étaient les collectivités locales, les
+                                    associations, les structures de l’économie sociale et la presse.</p>
+                                <p>Sur le plan numérique, j’ai organisé des communautés (FaceBook, Twitter,
+                                    Framasphère,…), mis en place le référencement d’une plate-forme et organisé
+                                    des campagnes de publipostage. </p>
+                            </div>
+                        </div>
+                    </div>
+                </th>
+            </tr>
+            {% include ('curriculum_vitae/skillsPage/skillsPageGeneric/thead.html.twig') %}
+            </thead>
+            <tbody>
+            {% for community in community %}
+                <tr>
+                    <td>{{ community.title }} </td>
+                    <td><img src="images/gauge/{{ community.level }}" alt="xp3"/></td>
+                    <td>{{ community.training }}</td>
+                    <td class="text-center"><a class="btn" {{community.link}}
+                                               data-toggle="tooltip" data-placement="top"
+                                               title="{{ community.tooltip }}">
+                            <i class="{{ community.debenture }}"></i>
+                        </a>
+                    </td>
+                </tr>
+            {% endfor %}
+            </tbody>
+            <tfoot>
+            {% include ('curriculum_vitae/skillsPage/skillsPageGeneric/tfoot.html.twig') %}
+            </tfoot>
+        </table>
+    </div>
+
+    <div>
+        <table id="skillCMS" class="table table-responsive marginTB ">
+            <thead>
+            <tr class="table-thead">
+                <th colspan="4">
+                    <i class="fas fa-cogs fa-2x"></i>
+                    &emsp;<a>C.M.S.</a>
+                </th>
+            </tr>
+            <tr>
+                <th colspan="4">
+                    <div id="CMSAccordion">
+                        <div class="item">
+                            <a class="accordionTitre" data-toggle="collapse" data-parent="#CMSccordion"
+                               href="#CMSAccordion1" aria-expanded="false" aria-controls="CMSAccordion1">
+                                Indications détaillées de mes compétences &emsp;
+                                <i class="fas fa-angle-down fa-lg"></i>
+                            </a>
+                            <div id="CMSAccordion1" class="collapse" role="tabpanel">
+                                <p> Lorsque, je me suis inscrit à des cours en ligne sur cette compétence, je
+                                    l’ai fait surtout pour obtenir la validation de mes acquis.</p>
+                                <p>Le CMS est un outil que j’utilise depuis de nombreuses années (dotClear,
+                                    spip, joomla, wordpress, PrestaShop). </p>
+                                <p>Au départ, je l’ai surtout utilisé pour concevoir des blogs personnels. Et
+                                    depuis quelques années, j’utilise surtout Wordpress pour construire des
+                                    sites plus complets.</p>
+                                <p> Le CMS a le gros avantage de transmettre facilement un site à la personne ou
+                                    à l’association qui l’a commandé, sans qu'ils aient besoin d’un grand niveau
+                                    de compétence informatique.</p>
+                                <p> J’ai organisé plusieurs séances de formation, autour de WordPress et autour
+                                    de la manipulation informatique des sites que j’ai conçus.</p>
+                            </div>
+                        </div>
+                    </div>
+                </th>
+            </tr>
+            {% include ('curriculum_vitae/skillsPage/skillsPageGeneric/thead.html.twig') %}
+            </thead>
+            <tbody>
+            {% for cms in cms %}
+                <tr>
+                    <td>{{ cms.title }} </td>
+                    <td><img src="images/gauge/{{ cms.level }}" alt="xp3"/></td>
+                    <td>{{ cms.training }}</td>
+                    <td class="text-center"><a class="btn" {{cms.link}}
+                                               data-toggle="tooltip" data-placement="top" title="{{ cms.tooltip }}">
+
+                            <i class="{{ cms.debenture }}"></i>
+                        </a>
+                    </td>
+                </tr>
+            {% endfor %}
+            </tbody>
+            <tfoot>
+            {% include ('curriculum_vitae/skillsPage/skillsPageGeneric/tfoot.html.twig') %}
+            </tfoot>
+        </table>
+    </div>
+
+    <div>
+        <table id="gestProj" class="table table-responsive marginTB ">
+            <thead>
+            <tr class="table-thead">
+                <th colspan="4">
+                    <i class="fas fa-sitemap fa-2x"></i>
+                    &emsp;<a>Gestion de projet multimédia</a>
+                </th>
+            </tr>
+            <tr>
+                <th colspan="4">
+                    <div id="gesAccordion">
+                        <div class="item">
+                            <a class="accordionTitre" data-toggle="collapse" data-parent="#gesccordion"
+                               href="#gesAccordion1" aria-expanded="false" aria-controls="gesAccordion1">
+                                Indications détaillées de mes compétences &emsp;
+                                <i class="fas fa-angle-down fa-lg"></i>
+                            </a>
+                            <div id="gesAccordion1" class="collapse" role="tabpanel">
+                                <p>Comme indiqué dans le CV général, j’ai eu de nombreux postes d’encadrant dans
+                                    l’économie sociale et solidaire, dont un en tant que salarié, c’est-à-dire,
+                                    le temps d’un mandat de trois ans.</p>
+                                <p> Donc, j’ai eu de nombreux projets à gérer, surtout dans la communication et
+                                    l’organisation.</p>
+                                <p>Dans cette capacité de gestion, un certain nombre de ces dispositions sont
+                                    transposables dans le domaine marchand et dans la gestion de projet
+                                    numérique. J’en ai fait l’expérience et j’ai vu au travers de quelques cours
+                                    (à l’ouvreboite44 et ceux indiqués ci-dessous) que les méthodes sont souvent
+                                    très proches.</p>
+                                <p>En grande partie, je suis opérationnel pour prendre de bout-à-bout la gestion
+                                    d’un projet numérique</p>
+                            </div>
+                        </div>
+                    </div>
+                </th>
+            </tr>
+            {% include ('curriculum_vitae/skillsPage/skillsPageGeneric/thead.html.twig') %}
+            </thead>
+            <tbody>
+            {% for manager in manager %}
+                <tr>
+                    <td>{{ manager.title }} </td>
+                    <td><img src="images/gauge/{{ manager.level }}" alt="xp3"/></td>
+                    <td>{{ manager.training }}</td>
+                    <td class="text-center"><a class="btn" {{manager.link}}
+                                               data-toggle="tooltip" data-placement="top" title="{{ manager.tooltip }}">
+                            <i class="{{ manager.debenture }}"></i>
+                        </a>
+                    </td>
+                </tr>
+            {% endfor %}
+            </tbody>
+            <tfoot>
+            {% include ('curriculum_vitae/skillsPage/skillsPageGeneric/tfoot.html.twig') %}
+            </tfoot>
+        </table>
+    </div>
+
+    <div>
+        <table id="logLibre" class="table table-responsive marginTB">
+            <thead>
+            <tr class="table-thead">
+                <th colspan="4">
+                    <i class="fab fa-linux fa-3x"></i>
+                    &emsp;<a>Logiciels libres</a>
+                </th>
+            </tr>
+            <tr>
+                <th colspan="4">
+                    <div id="lolAccordion">
+                        <div class="item">
+                            <a class="accordionTitre" data-toggle="collapse" data-parent="#lolccordion"
+                               href="#lolAccordion1" aria-expanded="false" aria-controls="lolAccordion1">
+                                Indications détaillées de mes compétences &emsp;
+                                <i class="fas fa-angle-down fa-lg"></i>
+                            </a>
+                            <div id="lolAccordion1" class="collapse" role="tabpanel">
+                                <p>Au-delà des questions relatives à une déontologie particulière sur le
+                                    logiciel libre. L’utilisation et la pratique de cette catégorie de
+                                    logiciels, sont surtout venues par le biais du milieu où j’ai développé mes
+                                    compétences numériques.</p>
+                                <p>Le milieu de l’économie sociale et solidaire est un milieu où les moyens
+                                    financiers sont faibles. La recherche de l’efficacité à moindre coût se
+                                    concrétise dans des systèmes coopératifs, du type logiciel libre.</p>
+                                <p>A publisher on préfère Scribus, à Adobe Illustrator CC on préfère Gimp, à la
+                                    suite Microsoft on préfère libreOffice etc.…, il y a toujours une solution
+                                    avec un logiciel libre. Il faut juste entreprendre une auto-formation pour
+                                    savoir l’utiliser</p>
+                                <p>Dernièrement, je suis de près l’évolution de la gamme Framasoft</p>
+                            </div>
+                        </div>
+                    </div>
+                </th>
+            </tr>
+            {% include ('curriculum_vitae/skillsPage/skillsPageGeneric/thead.html.twig') %}
+            </thead>
+            <tbody>
+            {% for  free in  free %}
+                <tr>
+                    <td>{{ free.title }} </td>
+                    <td><img src="images/gauge/{{  free.level }}" alt="xp3"/></td>
+                    <td>{{  free.training }}</td>
+                    <td class="text-center"><a class="btn" {{free.link}}
+                                               data-toggle="tooltip" data-placement="top" title="{{  free.tooltip }}">
+                            <i class="{{  free.debenture }}"></i>
+                        </a>
+                    </td>
+                </tr>
+            {% endfor %}
+            </tbody>
+            <tfoot>
+            {% include ('curriculum_vitae/skillsPage/skillsPageGeneric/tfoot.html.twig') %}
+            </tfoot>
+        </table>
+    </div>
+
+</div>
