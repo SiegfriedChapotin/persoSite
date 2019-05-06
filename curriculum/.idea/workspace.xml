@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ca3140e7-14fa-40cc-bdc4-9d2c326f4576" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/public/certificats/CvIntegrateurWeb.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/certificats/certificat_siegfried-chapotin_ameliorez-limpact-de-vos-presentations.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/certificats/certificat_siegfried-chapotin_apprenez-a-bien-cadrer-un-projet-multimedia.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/certificats/certificat_siegfried-chapotin_apprenez-a-coder-avec-javascript.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/certificats/certificat_siegfried-chapotin_apprenez-a-creer-votre-site-web-avec-html5-et-css.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/certificats/certificat_siegfried-chapotin_appropriez-vous-la-demarche-ux-en-pratique.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/certificats/certificat_siegfried-chapotin_comprendre-le-web.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/certificats/certificat_siegfried-chapotin_concevez-votre-site-web-avec-php-et-mysql.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/certificats/certificat_siegfried-chapotin_creez-votre-premier-site-avec-wordpress.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/certificats/certificat_siegfried-chapotin_creez-votre-site-professionnel-avec-wordpress.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/certificats/certificat_siegfried-chapotin_debutez-lanalyse-logicielle-avec-uml.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/certificats/certificat_siegfried-chapotin_decouvrez-les-bases-de-la-gestion-de-projet.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/certificats/certificat_siegfried-chapotin_decouvrez-les-solutions-cms.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/certificats/certificat_siegfried-chapotin_decouvrir-la-posture-d-agilite.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/certificats/certificat_siegfried-chapotin_gerez-un-projet-digital-avec-une-methodologie-en-cascade.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/certificats/certificat_siegfried-chapotin_gerez-votre-code-avec-git-et-github.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/certificats/certificat_siegfried-chapotin_gerez-votre-projet-avec-une-equipe-scrum.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/certificats/certificat_siegfried-chapotin_initiez-vous-a-la-gestion-de-projet-agile.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/certificats/certificat_siegfried-chapotin_initiez-vous-au-design-thinking.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/certificats/certificat_siegfried-chapotin_introduction-a-jquery.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/certificats/certificat_siegfried-chapotin_introduction-a-lintegration-web.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/certificats/certificat_siegfried-chapotin_les-cles-pour-devenir-community-manager.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/certificats/certificat_siegfried-chapotin_prenez-en-main-bootstrap.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/certificats/certificat_siegfried-chapotin_realisez-des-sites-modernes-et-beaux-grace-a-wordpress.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/certificats/certificat_siegfried-chapotin_reussir-sa-campagne-de-mailing-avec-mailchimp.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/certificats/certificat_siegfried-chapotin_surfez-incognito-sur-internet-avec-le-reseau-tor.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/certificats/certificat_siegfried-chapotin_ux-design-decouvrez-les-fondamentaux.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/css.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/cssCv.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/cssResponse.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/LaBarre.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/LaBarreOrange.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/LaMarge.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/LaMargeBas.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/LaMargeBasOrange.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/LaMargeOrange.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/LaMargevide.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/gauge.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/gauge/gauge1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/gauge/gauge2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/gauge/gauge3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/gauge/gauge4.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/glyphicons-602-chevron-down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/indeed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/listRed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/manpower.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/manpower.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/multiposting.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/pole_emploi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/resaux_sociaux/CompetencesFB.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/resaux_sociaux/CvFB.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/wordplace.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/CVjs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entity/Cms.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entity/Community.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entity/Designer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entity/Developer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entity/Free.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entity/Manager.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entity/Skill.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Repository/CmsRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Repository/CommunityRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Repository/DesignerRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Repository/DeveloperRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Repository/FreeRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Repository/ManagerRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Repository/SkillRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/curriculum_vitae/home.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/curriculum_vitae/homePage/know.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/curriculum_vitae/homePage/skill.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/curriculum_vitae/index.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/curriculum_vitae/layout/layout.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/curriculum_vitae/layout/layoutGeneric/footer.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/curriculum_vitae/layout/layoutGeneric/head.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/curriculum_vitae/layout/layoutGeneric/header.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/curriculum_vitae/layout/layoutGeneric/script.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/curriculum_vitae/qualification.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/curriculum_vitae/skillsPage/knowSkills.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/curriculum_vitae/skillsPage/skillSkills.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/curriculum_vitae/skillsPage/skillsPageGeneric/tfoot.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/curriculum_vitae/skillsPage/skillsPageGeneric/thead.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OCRParcours/Projet_03 Créez un blog pour un écrivain/literaryBlog" beforeDir="false" afterPath="$PROJECT_DIR$/../OCRParcours/Projet_03 Créez un blog pour un écrivain/literaryBlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../curriculum-vitae/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../curriculum-vitae/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../curriculum-vitae/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../curriculum-vitae/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Controller/CurriculumVitaeController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="722">
+              <caret line="84" selection-start-line="84" selection-end-line="84" />
+              <folding>
+                <element signature="e#34#53#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/.env" />
+        <option value="$PROJECT_DIR$/src/Controller/CurriculumVitaeController.php" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-cache-bundle" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/reflection" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/event-manager" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-eventmanager" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/orm" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-code" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/common" />
+      <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-bundle" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/migrations" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/collections" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-migrations-bundle" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/persistence" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/vendor/fig/link-util" />
+      <path value="$PROJECT_DIR$/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/vendor/ocramius/proxy-manager" />
+      <path value="$PROJECT_DIR$/vendor/ocramius/package-versions" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/vendor/psr/link" />
+      <path value="$PROJECT_DIR$/vendor/symfony/dependency-injection" />
+      <path value="$PROJECT_DIR$/vendor/symfony/security-guard" />
+      <path value="$PROJECT_DIR$/vendor/symfony/validator" />
+      <path value="$PROJECT_DIR$/vendor/symfony/security-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/profiler-pack" />
+      <path value="$PROJECT_DIR$/vendor/symfony/browser-kit" />
+      <path value="$PROJECT_DIR$/vendor/symfony/test-pack" />
+      <path value="$PROJECT_DIR$/vendor/symfony/dom-crawler" />
+      <path value="$PROJECT_DIR$/vendor/symfony/property-access" />
+      <path value="$PROJECT_DIR$/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/vendor/symfony/monolog-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/cache" />
+      <path value="$PROJECT_DIR$/vendor/jdorn/sql-formatter" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-icu" />
+      <path value="$PROJECT_DIR$/vendor/symfony/doctrine-bridge" />
+      <path value="$PROJECT_DIR$/vendor/symfony/serializer-pack" />
+      <path value="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/options-resolver" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/vendor/symfony/twig-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/web-server-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/vendor/symfony/phpunit-bridge" />
+      <path value="$PROJECT_DIR$/vendor/symfony/expression-language" />
+      <path value="$PROJECT_DIR$/vendor/symfony/security-csrf" />
+      <path value="$PROJECT_DIR$/vendor/symfony/security-core" />
+      <path value="$PROJECT_DIR$/vendor/symfony/maker-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/inflector" />
+      <path value="$PROJECT_DIR$/vendor/symfony/security-http" />
+      <path value="$PROJECT_DIR$/vendor/symfony/web-link" />
+      <path value="$PROJECT_DIR$/vendor/symfony/panther" />
+      <path value="$PROJECT_DIR$/vendor/symfony/web-profiler-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/var-exporter" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/vendor/symfony/orm-pack" />
+      <path value="$PROJECT_DIR$/vendor/symfony/serializer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/debug-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/vendor/symfony/debug-pack" />
+      <path value="$PROJECT_DIR$/vendor/symfony/flex" />
+      <path value="$PROJECT_DIR$/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/vendor/symfony/property-info" />
+      <path value="$PROJECT_DIR$/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/vendor/symfony/framework-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/intl" />
+      <path value="$PROJECT_DIR$/vendor/symfony/debug" />
+      <path value="$PROJECT_DIR$/vendor/symfony/twig-bridge" />
+      <path value="$PROJECT_DIR$/vendor/symfony/filesystem" />
+      <path value="$PROJECT_DIR$/vendor/symfony/form" />
+      <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/vendor/symfony/dotenv" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/vendor/symfony/monolog-bridge" />
+      <path value="$PROJECT_DIR$/vendor/symfony/asset" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/vendor/symfony/config" />
+      <path value="$PROJECT_DIR$/vendor/symfony/stopwatch" />
+      <path value="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle" />
+      <path value="$PROJECT_DIR$/vendor/easycorp/easy-log-handler" />
+      <path value="$PROJECT_DIR$/vendor/facebook/webdriver" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
+    </include_path>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/curriculum.iml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/php.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="-10" />
+    <option name="width" value="943" />
+    <option name="height" value="1087" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="curriculum" type="b2602c69:ProjectViewProjectNode" />
+              <item name="curriculum" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="curriculum" type="b2602c69:ProjectViewProjectNode" />
+              <item name="curriculum" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="curriculum" type="b2602c69:ProjectViewProjectNode" />
+              <item name="curriculum" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="certificats" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\siegf_000\Desktop\githubprojet\persoSite\curriculum\public" />
+      <recent name="C:\Users\siegf_000\Desktop\githubprojet\persoSite\curriculum\templates\curriculum_vitae" />
+      <recent name="C:\Users\siegf_000\Desktop\githubprojet\persoSite\curriculum\src\Repository" />
+      <recent name="C:\Users\siegf_000\Desktop\githubprojet\persoSite\curriculum\src\Entity" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ca3140e7-14fa-40cc-bdc4-9d2c326f4576" name="Default Changelist" comment="" />
+      <created>1557137555383</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1557137555383</updated>
+      <workItem from="1557137559348" duration="1644000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1644000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-10" y="0" width="943" height="1087" extended-state="1" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24915062" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Database" weight="0.3295583" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="49" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Entity/Cms.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Repository/CmsRepository.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/curriculum_vitae/homePage/know.html.twig">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/CurriculumVitaeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="722">
+          <caret line="84" selection-start-line="84" selection-end-line="84" />
+          <folding>
+            <element signature="e#34#53#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

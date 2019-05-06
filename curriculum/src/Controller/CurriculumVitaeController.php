@@ -12,6 +12,7 @@ use App\Entity\Skill;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\Routing\Annotation\Route;
 
+
 class CurriculumVitaeController extends AbstractController
 {
     /**
@@ -81,5 +82,7 @@ class CurriculumVitaeController extends AbstractController
         return $this->redirect('/skills');
 
     }
-}
 
+
+
+}
